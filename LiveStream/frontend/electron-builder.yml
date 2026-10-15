@@ -1,0 +1,22 @@
+appId: com.livestream.base
+productName: LiveStream
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist
+  - dist-electron
+mac:
+  target:
+    - dmg
+    - zip
+  artifactName: "${name}-${version}-mac.${ext}"
+win:
+  target:
+    - nsis
+    - portable
+  artifactName: "${name}-${version}-win.${ext}"
+linux:
+  target:
+    - AppImage
+  artifactName: "${name}-${version}-linux.${ext}"

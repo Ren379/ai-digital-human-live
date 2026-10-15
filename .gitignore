@@ -1,0 +1,40 @@
+﻿# Environment
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# Models
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Logs and cache
+*.log
+.cache/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.zip
+*.rar
+
+.git-original-backup/
+/LiveStream/backend/-r
+/LiveStream/backend/[0-9]*
